@@ -11,18 +11,6 @@ html {
           box-sizing: inherit;
 }
 
-body {
-  min-height: 100%;
-  font-family: "Merriweather", serif;
-  font-size: 16px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #000;
-  background-image: url("../popup-icons/ua.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1,
 h2,
 h3,
@@ -40,6 +28,18 @@ img {
 a {
   text-decoration: none;
   color: currentColor;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #000;
+  background-image: url("../popup-icons/ua.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .list {
@@ -100,7 +100,6 @@ a {
 }
 
 .nav__link {
-  font-size: 16px;
   font-weight: 700;
   color: #5d5c5c;
 }
@@ -194,7 +193,7 @@ a {
 
 .menu__link {
   width: 100%;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
   padding: 15px 0;
   display: -ms-grid;
@@ -311,7 +310,7 @@ a {
     gap: 25px;
   }
   .nav__link {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .account-block {
     gap: 25px;
@@ -321,7 +320,7 @@ a {
     height: 450px;
   }
   .menu__link {
-    font-size: 14px;
+    font-size: 0.87rem;
   }
   .menu__icon {
     max-height: 50px;

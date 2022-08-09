@@ -1,11 +1,14 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   min-height: 100%;
 }
+
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 h1,
@@ -26,3 +29,4 @@ a {
   text-decoration: none;
   color: currentColor;
 }
+/*# sourceMappingURL=normalize.css.map */
